@@ -1,5 +1,5 @@
-export const API_BASE = process.env.NEXT_PUBLIC_API_BASE || "http://localhost:8000/api";
-export const WS_BASE = process.env.NEXT_PUBLIC_WS_BASE || "ws://localhost:8000/api/ws";
+export const API_BASE = process.env.NEXT_PUBLIC_API_BASE || "/api";
+export const WS_BASE = process.env.NEXT_PUBLIC_WS_BASE || "ws://localhost:3000/api/ws";
 
 // Helper to get token
 export const getToken = (): string | null => {
