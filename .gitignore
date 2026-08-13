@@ -1,0 +1,22 @@
+# Python
+backend/venv/
+backend/__pycache__/
+backend/**/*.pyc
+backend/signal.db
+backend/static/*
+!backend/static/.gitkeep
+
+# Node.js / Frontend
+frontend/node_modules/
+frontend/.next/
+frontend/out/
+frontend/build/
+frontend/.env*.local
+frontend/*.tsbuildinfo
+frontend/next-env.d.ts
+
+# Misc
+.DS_Store
+Thumbs.db
+*.log
+.vercel/
