@@ -31,7 +31,7 @@ app.add_middleware(
 )
 
 # Serve attachments and avatars statically
-app.mount("/static", StaticFiles(directory="static"), name="static")
+#app.mount("/static", StaticFiles(directory="static"), name="static")
 
 # Include Routers
 app.include_router(auth.router, prefix="/api")
